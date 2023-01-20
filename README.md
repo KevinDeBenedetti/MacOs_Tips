@@ -6,6 +6,8 @@ Installation de Php ~ MySQL ~ Apache HTTP Serveur sur macOS
 * [Installer PHP](#Installer-PHP)
 * [Installer MySQL](#Installer-MySQL)
 * [Installer Apache HTTP Serveur](#Installer-Apache-HTTP-Serveur)
+* [Ajouter des alias](#Ajouter-des-alias)
+
 
 
 <br>
@@ -169,3 +171,28 @@ mclovin@mac ~ % sudo apachestl restart
 📚 [https://tecadmin.net/install-apache-macos-homebrew/](https://tecadmin.net/install-apache-macos-homebrew/)
 
 📚 [https://www.php.net/manual/fr/install.unix.apache2.php](https://www.php.net/manual/fr/install.unix.apache2.php)
+
+<br>
+<br>
+
+<hr>
+
+## Ajouter des alias
+
+#### 💻 Modifier le fichier .zshrc_profile ou .bash_profile
+```
+mclovin@mac ~ % nano .bash_profile
+```
+```
+mclovin@mac ~ % nano .zshrc_profile
+```
+#### 💻 Ajouter un raccourci dans le .zshrc_profile
+```
+# Raccourci pour configurer nginx
+alias ..nginx="cd /usr/local/etc/nginx/"
+```
+
+#### 💻 Confirmer les modifications
+```
+mclovin@mac ~ % source ~/.zshrc
+```
