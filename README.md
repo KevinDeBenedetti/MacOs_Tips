@@ -59,7 +59,8 @@ mclovin@mac ~ % ls /usr/local/etc
 
 <br>
 
-## ![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat) Installer MySQL
+## Installer MySQL
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
 
 ### 💻 Installer MySQL
 ```
