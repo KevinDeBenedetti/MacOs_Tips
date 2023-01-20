@@ -35,7 +35,8 @@ mclovin@mac ~ % brew list
 mclovin@mac ~ % brew search
 ```
 
-#### 📒 La documentation ➡️ [https://docs.brew.sh](https://docs.brew.sh)
+#### 📒 La documentation <br>
+➡️ [https://docs.brew.sh](https://docs.brew.sh)
 
 <br>
 <br>
@@ -64,7 +65,8 @@ mclovin@mac ~ % brew install php@8.1
 mclovin@mac ~ % cd /usr/local/etc
 mclovin@mac ~ % ls /usr/local/etc
 ```
-#### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/php#default](https://formulae.brew.sh/formula/php#default)
+#### 📒 La documentation <br>
+➡️ [https://formulae.brew.sh/formula/php#default](https://formulae.brew.sh/formula/php#default)
 
 <br>
 <br>
@@ -75,17 +77,93 @@ mclovin@mac ~ % ls /usr/local/etc
 
 ## Installer MySQL 
 
-
 #### 💻 Commande pour installer MySQL
 ```
 mclovin@mac ~ % brew install mysql
 ```
 #### Les commandes de bases
-```
-// Se connectter avec l'utilisateur root 
-mclovin@mac ~ % bmysql -u root -p
 
-// Charger une bdd à partir d'un fichier
+⬇️ Se connectter avec l'utilisateur root
+```
+mclovin@mac ~ % bmysql -u root -p
+```
+⬇️ Charger une bdd à partir d'un fichier
+```
 mclovin@mac ~ % mysql -u root -p nom_de_la_base_de_donnees < nom_du_fichier.sql
 ```
-#### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
+#### 📒 La documentation <br>
+➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
+
+<br>
+<br>
+
+![Apache Badge](https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=fff&style=flat)
+<hr>
+
+## Installer Apache HTTP Serveur
+
+#### 💻 Commande pour installer httpd
+```
+mclovin@mac ~ % brew install httpd
+```
+#### 💻 Commande pour ouvrir httpd au démarrage
+```
+mclovin@mac ~ % sudo brew services start httpd
+```
+#### 💡 Info - URL : http://localhost:8080
+#### 💻 Configurer httpd
+```
+mclovin@mac ~ % nano /usr/local/etc/httpd/httpd.conf
+```
+#### 💻 Définir le port Apache dans httpd.conf
+```
+Listen 8080
+// A modifier
+Listen 80
+```
+#### 💻 Créer un document racine
+Par défaut : /usr/local/var/www
+```
+mclovin@mac ~ % mkdir Sites
+```
+#### 💻 Modifier la racine du document dans httpd.conf
+Par défaut : /usr/local/var/www
+```
+DocumentRoot /Users/mclovin/Sites
+```
+#### Les commandes de bases
+
+⬇️ Lancer Apache
+```
+mclovin@mac ~ % sudo /usr/local/opt/apache2/bin/apachectl start
+```
+⬇️ Arrêter Apache
+```
+mclovin@mac ~ % sudo /usr/local/opt/apache2/bin/apachectl stop
+
+```
+⬇️ Lancer Apache
+```
+mclovin@mac ~ % sudo apachestl start 
+
+```
+⬇️ Arrêter Apache
+```
+mclovin@mac ~ % sudo apachestl stop 
+
+```
+⬇️ Redémarrer Apache
+```
+mclovin@mac ~ % sudo apachestl restart 
+
+```
+
+#### 📒 La documentation <br>
+➡️ [https://formulae.brew.sh/formula/httpd#default](https://formulae.brew.sh/formula/httpd#default)
+
+➡️ [https://httpd.apache.org](https://httpd.apache.org)
+
+#### 📚 Sources
+➡️ [https://tecadmin.net/install-apache-macos-homebrew/](https://tecadmin.net/install-apache-macos-homebrew/)
+
+➡️ [https://www.php.net/manual/fr/install.unix.apache2.php](https://www.php.net/manual/fr/install.unix.apache2.php)
