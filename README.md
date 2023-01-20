@@ -35,7 +35,7 @@ mclovin@mac ~ % brew search
 
 ## ![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat) Installer PHP
 
-### 💻 Chercher les versions de php disponibles à l'installation 
+### 💻 Commande pour chercher les versions de php disponibles à l'installation 
 
 ```
 mclovin@mac ~ % brew search php
@@ -45,11 +45,11 @@ php                      php@7.4                  phplint                  phpun
 php-code-sniffer         php@8.0                  phpmd                    pcp
 php-cs-fixer             php@8.1                  phpmyadmin               pup
 ```
-### 💻 Installer la version choisie (php@8.1 pour l'exemple)
+### 💻 Commande pour installer la version choisie (php@8.1 pour l'exemple)
 ```
 mclovin@mac ~ % brew install php@8.1
 ```
-### 💡 Info - Répertoire d'installation
+### 💡 Info - Commandes pour accéder au répertoire d'installation
 ```
 mclovin@mac ~ % cd /usr/local/etc
 mclovin@mac ~ % ls /usr/local/etc
@@ -59,10 +59,10 @@ mclovin@mac ~ % ls /usr/local/etc
 
 <br>
 
-## Installer MySQL
-![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+## Installer MySQL ![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
 
-### 💻 Installer MySQL
+
+### 💻 Commande pour installer MySQL
 ```
 mclovin@mac ~ % brew install mysql
 ```
