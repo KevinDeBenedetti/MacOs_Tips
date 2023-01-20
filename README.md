@@ -8,19 +8,21 @@ Installation de Php ~ MySQL ~ Apache HTTP Serveur sur macOS
 
 <br>
 
-## ![Homebrew Badge](https://img.shields.io/badge/Homebrew-FBB040?logo=homebrew&logoColor=fff&style=plastic) Installer homebrew
+![Homebrew Badge](https://img.shields.io/badge/Homebrew-FBB040?logo=homebrew&logoColor=fff&style=plastic)
+
+##  Installer homebrew
 Le site officiel ➡️ [https://brew.sh/index_fr](https://brew.sh/index_fr) <br>
 
-### Les commandes pour l'installation
+### 💻 Les commandes pour l'installation
 
 ```
+// Installation de hombrew
 mclovin@mac ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 mclovin@mac ~ % brew install wget
 ```
 
-### Les commandes de bases
-📒 La documentation ➡️ [https://docs.brew.sh](https://docs.brew.sh)
+### 💻  Les commandes de bases
 ```
 mclovin@mac ~ % brew update
 mclovin@mac ~ % brew upgrade
@@ -31,9 +33,13 @@ mclovin@mac ~ % brew list
 mclovin@mac ~ % brew search
 ```
 
+### 📒 La documentation ➡️ [https://docs.brew.sh](https://docs.brew.sh)
+
 <br>
 
-## ![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat) Installer PHP
+![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat)
+
+##  Installer PHP
 
 ### 💻 Commande pour chercher les versions de php disponibles à l'installation 
 
@@ -54,12 +60,11 @@ mclovin@mac ~ % brew install php@8.1
 mclovin@mac ~ % cd /usr/local/etc
 mclovin@mac ~ % ls /usr/local/etc
 ```
-
-
-
 <br>
 
-## Installer MySQL ![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+
+## Installer MySQL 
 
 
 ### 💻 Commande pour installer MySQL
@@ -67,9 +72,6 @@ mclovin@mac ~ % ls /usr/local/etc
 mclovin@mac ~ % brew install mysql
 ```
 ### Les commandes de bases
-
-📒 La documentation ➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
-
 ```
 // Se connectter avec l'utilisateur root 
 mclovin@mac ~ % bmysql -u root -p
@@ -77,3 +79,4 @@ mclovin@mac ~ % bmysql -u root -p
 // Charger une bdd à partir d'un fichier
 mclovin@mac ~ % mysql -u root -p nom_de_la_base_de_donnees < nom_du_fichier.sql
 ```
+### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
