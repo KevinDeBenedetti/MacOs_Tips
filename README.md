@@ -37,8 +37,8 @@ mclovin@mac ~ % brew list
 mclovin@mac ~ % brew search
 ```
 
-#### 📒 La documentation <br>
-➡️ [https://docs.brew.sh](https://docs.brew.sh)
+### Documentation <br>
+📒 [https://docs.brew.sh](https://docs.brew.sh)
 
 <br>
 <br>
@@ -67,8 +67,8 @@ mclovin@mac ~ % brew install php@8.1
 mclovin@mac ~ % cd /usr/local/etc
 mclovin@mac ~ % ls /usr/local/etc
 ```
-#### 📒 La documentation <br>
-➡️ [https://formulae.brew.sh/formula/php#default](https://formulae.brew.sh/formula/php#default)
+### Documentation <br>
+📒 [https://formulae.brew.sh/formula/php#default](https://formulae.brew.sh/formula/php#default)
 
 <br>
 <br>
@@ -93,8 +93,8 @@ mclovin@mac ~ % mysql -u root -p
 ```
 mclovin@mac ~ % mysql -u root -p nom_de_la_base_de_donnees < nom_du_fichier.sql
 ```
-#### 📒 La documentation <br>
-➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
+### Documentation <br>
+📒 [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
 
 <br>
 <br>
@@ -160,12 +160,12 @@ mclovin@mac ~ % sudo apachestl restart
 
 ```
 
-#### 📒 La documentation <br>
-➡️ [https://formulae.brew.sh/formula/httpd#default](https://formulae.brew.sh/formula/httpd#default)
+### La documentation <br>
+📒 [https://formulae.brew.sh/formula/httpd#default](https://formulae.brew.sh/formula/httpd#default)
 
-➡️ [https://httpd.apache.org](https://httpd.apache.org)
+📒 [https://httpd.apache.org](https://httpd.apache.org)
 
-#### 📚 Sources
-➡️ [https://tecadmin.net/install-apache-macos-homebrew/](https://tecadmin.net/install-apache-macos-homebrew/)
+### Sources
+📚 [https://tecadmin.net/install-apache-macos-homebrew/](https://tecadmin.net/install-apache-macos-homebrew/)
 
-➡️ [https://www.php.net/manual/fr/install.unix.apache2.php](https://www.php.net/manual/fr/install.unix.apache2.php)
+📚 [https://www.php.net/manual/fr/install.unix.apache2.php](https://www.php.net/manual/fr/install.unix.apache2.php)
