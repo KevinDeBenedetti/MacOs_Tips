@@ -7,13 +7,15 @@ Installation de Php ~ MySQL ~ Apache HTTP Serveur sur macOS
 * [Installer MySQL](#Installer-MySQL)
 
 <br>
+<br>
 
 ![Homebrew Badge](https://img.shields.io/badge/Homebrew-FBB040?logo=homebrew&logoColor=fff&style=plastic)
+<hr>
 
 ##  Installer homebrew
 Le site officiel ➡️ [https://brew.sh/index_fr](https://brew.sh/index_fr) <br>
 
-### 💻 Les commandes pour l'installation
+#### 💻 Les commandes pour l'installation
 
 ```
 // Installation de hombrew
@@ -22,7 +24,7 @@ mclovin@mac ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hom
 mclovin@mac ~ % brew install wget
 ```
 
-### 💻  Les commandes de bases
+#### 💻  Les commandes de bases
 ```
 mclovin@mac ~ % brew update
 mclovin@mac ~ % brew upgrade
@@ -33,15 +35,17 @@ mclovin@mac ~ % brew list
 mclovin@mac ~ % brew search
 ```
 
-### 📒 La documentation ➡️ [https://docs.brew.sh](https://docs.brew.sh)
+#### 📒 La documentation ➡️ [https://docs.brew.sh](https://docs.brew.sh)
 
+<br>
 <br>
 
 ![PHP Badge](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat)
+<hr>
 
 ##  Installer PHP
 
-### 💻 Commande pour chercher les versions de php disponibles à l'installation 
+#### 💻 Commande pour chercher les versions de php disponibles à l'installation 
 
 ```
 mclovin@mac ~ % brew search php
@@ -51,27 +55,32 @@ php                      php@7.4                  phplint                  phpun
 php-code-sniffer         php@8.0                  phpmd                    pcp
 php-cs-fixer             php@8.1                  phpmyadmin               pup
 ```
-### 💻 Commande pour installer la version choisie (php@8.1 pour l'exemple)
+#### 💻 Commande pour installer la version choisie (php@8.1 pour l'exemple)
 ```
 mclovin@mac ~ % brew install php@8.1
 ```
-### 💡 Info - Commandes pour accéder au répertoire d'installation
+#### 💡 Info - Commandes pour accéder au répertoire d'installation
 ```
 mclovin@mac ~ % cd /usr/local/etc
 mclovin@mac ~ % ls /usr/local/etc
 ```
+#### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/php#default](https://formulae.brew.sh/formula/php#default)
+
+<br>
 <br>
 
+
 ![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
+<hr>
 
 ## Installer MySQL 
 
 
-### 💻 Commande pour installer MySQL
+#### 💻 Commande pour installer MySQL
 ```
 mclovin@mac ~ % brew install mysql
 ```
-### Les commandes de bases
+#### Les commandes de bases
 ```
 // Se connectter avec l'utilisateur root 
 mclovin@mac ~ % bmysql -u root -p
@@ -79,4 +88,4 @@ mclovin@mac ~ % bmysql -u root -p
 // Charger une bdd à partir d'un fichier
 mclovin@mac ~ % mysql -u root -p nom_de_la_base_de_donnees < nom_du_fichier.sql
 ```
-### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
+#### 📒 La documentation ➡️ [https://formulae.brew.sh/formula/mysql#default](https://formulae.brew.sh/formula/mysql#default)
