@@ -83,7 +83,7 @@ mclovin@mac ~ % ls /usr/local/etc
 ```
 mclovin@mac ~ % brew install mysql
 ```
-#### Les commandes de bases
+#### Les commandes de base
 
 ⬇️ Se connectter avec l'utilisateur root
 ```
@@ -133,7 +133,7 @@ Par défaut : /usr/local/var/www
 ```
 DocumentRoot /Users/mclovin/Sites
 ```
-#### Les commandes de bases
+#### Les commandes de base
 
 ⬇️ Lancer Apache
 ```
